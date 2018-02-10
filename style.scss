@@ -28,8 +28,6 @@ ul {
   min-height: 100%;
   display: flex;
 
-}
-
 .nav {
   width: 15%;
   min-width: 140px;
@@ -37,19 +35,10 @@ ul {
   padding-top: 55px;
   padding-right: 30px;
   text-align: center;
-}
-
-.nav h4 {
+  h4 {
   -webkit-margin-before: 0;
   margin-left: 50px;
-}
-
-.main ul {
-  padding-left: 30px;
-}
-
-.main li {
-  font-size: 0.85rem;
+  }
 }
 
 .main {
@@ -57,32 +46,42 @@ ul {
   min-height: 750px;
   min-width: 600px;
   background-color: $cosmos;
-}
+  padding-left: 30px;
 
-.main h1 {
+  ul {
+    
+  }
+
+  li {
+  font-size: 0.85rem;
+  }
+
+  h1 {
   font-size: 62px;
   -webkit-margin-before: 0;
   padding-top: 40px;
-  padding-left: 30px;
-}
+  
+  }
 
-.main video {
-  padding-left: 30px;
-}
+  video {
+  
+  }
 
-.main p {
-  padding-left: 30px;
+  p {
+  
   width: 55%;
   min-width: 550px;
-}
+  }
 
-.main a {
+  a {
   color: inherit;
-  padding-left: 30px;
+  
   text-decoration: none;
-}
+  }
 
-.main a:hover {
+  a:hover {
   text-decoration: underline;
+  }
+}
 }
 
